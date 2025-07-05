@@ -1,65 +1,85 @@
-# coursera-test
-coursera-test repository
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Bienvenue sur le site d’Eve</title>
+  <title>GlutaMaster by Eve</title>
   <style>
     body {
-      background: #fff0f5;
-      color: #333;
       font-family: 'Arial', sans-serif;
-      padding: 30px;
+      background-color: #fff0f5;
+      color: #333;
       max-width: 800px;
       margin: auto;
+      padding: 30px;
     }
-    h1 {
-      color: #c71585;
+    h1, h2 {
+      color: #d63384;
     }
     .section {
       margin-bottom: 50px;
-    }
-    .btn {
-      display: inline-block;
-      background: #ff69b4;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 8px;
     }
     img {
       max-width: 100%;
       border-radius: 12px;
     }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #d63384;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .testimonial {
+      background-color: #ffe6f0;
+      border-left: 5px solid #d63384;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Section Accueil -->
+  <!-- Présentation -->
   <div class="section">
-    <h1>🌸 Hello, moi c’est Eve</h1>
-    <p>Assistante virtuelle, créatrice de contenu et passionnée de beauté 💖</p>
-    <p>Bienvenue dans mon univers !</p>
-
-    <p>
-      👉 <a href="https://instagram.com/tonpseudo" target="_blank">Mon Instagram</a><br>
-      📞 <a href="https://wa.me/tonnuméro" target="_blank">Me contacter sur WhatsApp</a>
-    </p>
-
-    <img src="https://i.imgur.com/VwqC8D7.jpeg" alt="Photo d’Eve">
+    <h1>🌸 Bienvenue chez Eve</h1>
+    <p>Je suis Eve, assistante virtuelle & passionnée de soins de la peau.  
+    Découvrez ici mon produit phare : <strong>la GlutaMaster Orange Peeling Lotion</strong> 🌟</p>
   </div>
 
-  <!-- Section Produit -->
+  <!-- Produit -->
   <div class="section">
     <h2>🧴 GlutaMaster Orange Peeling Lotion</h2>
-    <p>Exfolie, illumine et renouvelle ta peau en douceur ✨</p>
-    <img src="https://i.imgur.com/Wxk7sDC.jpg" alt="GlutaMaster Orange Peeling Lotion">
-    <p>
-      <a href="https://wa.me/tonnuméro?text=Bonjour%20Eve%2C%20je%20veux%20acheter%20la%20lotion%20GlutaMaster" class="btn" target="_blank">
-        Acheter maintenant sur WhatsApp
-      </a>
-    </p>
+    <img src="https://i.imgur.com/Wxk7sDC.jpg" alt="Lotion GlutaMaster">
+    <p>✨ Une peau lisse, claire et lumineuse en quelques jours !  
+    Exfolie en douceur, unifie le teint et élimine les imperfections.</p>
+    <ul>
+      <li>✅ Élimine les cellules mortes</li>
+      <li>✅ Résultats visibles rapidement</li>
+      <li>✅ Convient à tous types de peau</li>
+    </ul>
+    <a class="btn" href="https://wa.me/TONNUMERO?text=Bonjour%20Eve%2C%20je%20veux%20acheter%20la%20lotion%20GlutaMaster" target="_blank">
+      Acheter maintenant via WhatsApp
+    </a>
+  </div>
+
+  <!-- Témoignages -->
+  <div class="section">
+    <h2>💬 Avis clientes</h2>
+    <div class="testimonial">
+      “Après 3 jours, ma peau est plus douce et mes taches ont commencé à disparaître 😍” – Aïcha
+    </div>
+    <div class="testimonial">
+      “Produit miracle ! Je l’utilise 2 fois par semaine et ma peau est transformée ✨” – Nina
+    </div>
+  </div>
+
+  <!-- Lien vers ton site -->
+  <div class="section">
+    <h2>🛍 Visitez ma boutique complète</h2>
+    <p>Découvre tous mes produits sur <a href="https://ivieevahair.com" target="_blank">ivieevahair.com</a></p>
   </div>
 
 </body>
